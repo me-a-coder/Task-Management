@@ -1,0 +1,51 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Set width for the sidebar */
+    height: 100vh; /* Full height */
+    background-color: #2c3e50; /* Dark background for sidebar */
+    position: fixed; /* Fix the sidebar on the left */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: #34495e; /* Change color on hover */
+    padding: 10px;
+  }
+  
+  /* Main Dashboard Area */
+  .main-content {
+    margin-left: 260px; /* Leave space for sidebar */
+    padding: 20px;
+    background-color: #ecf0f1;
+    min-height: 100vh;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .task-box {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
